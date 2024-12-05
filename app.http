@@ -1,0 +1,50 @@
+GET https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/states/
+
+### 
+
+GET https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/states/7/
+
+###
+
+POST https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/districts/
+Content-Type: application/json
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+###
+
+GET https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/districts/322/
+
+
+###
+
+DELETE https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/districts/5/
+
+###
+
+PUT https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/districts/6/
+Content-Type: application/json
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+###
+
+GET https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/states/4/stats/
+
+###
+
+GET https://venkatasubbaraohow31njscpaqlbe.drops.nxtwave.tech/districts/6/details/
